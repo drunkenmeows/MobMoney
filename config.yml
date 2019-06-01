@@ -1,0 +1,57 @@
+#Keys eg. World:, StartTime: etc, are case sensetivity.
+#Keys use the camel(each word is capitalized) formating for easy of reading.
+
+#Don't modify
+Version: 1.00
+
+#world name
+Worlds: 
+  - world
+  - world_nether
+  
+#multipler step - how much to decrease the value multiplier by
+#0.25 = 25% value cut per same mob killed.
+Multiplier: 0.25
+
+#multiplier for spawner and underground mobs.
+#0.8 = 80% value cut for spawner/grinder mobs.
+DMultiplier: 0.80
+
+#Allow mob spawners
+Denymobspawners: true
+
+#Allow natural grinders
+Denynaturalgrinders: true
+
+#money
+#Single value - '10'
+#Range value - '10:20' 
+Value:
+  Blaze: '10:20'
+  CaveSpider: '5:10'
+  Creeper: '10:15'
+  EnderDragon: '3000:5000'
+  Enderman: '150:200'
+  Ghast: '50:100'
+  Giant: '1000'
+  LavaSlime: '10:15'
+  PigZombie: '10:15'
+  Silverfish: '1:5'
+  Skeleton: '10:15'
+  Slime: '1:5'
+  Spider: '10:15'
+  Witch: '0'
+  WitherBoss: '500:1000'
+  WitherSkeleton: '40:50'
+  Zombie: '5:10'
+  Player: '0'
+  Unknown: '0'
+
+#All mobmoney messages
+#Enclose with ' ' to be safe..
+#%m - mod name %i - money
+Messages:
+  Prefix: '&f[&aMobMoney&f] '
+  YouKilled: '&cYou have killed a &f[&a%m&f]&c for &f[&a$%i&f]'
+  OpMissingMob: '&cMob &f[&a%m&f]&c not defined in config.'
+  

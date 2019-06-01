@@ -1,0 +1,6 @@
+name: MobMoney
+main: me.drunkenmeows.mobmoney.MobMoney
+softdepend: [Vault]
+version: '1.00'
+author: drunkenmeows
+description: 'MobMoney is a plugin that allow players to get money for killing mobs'
